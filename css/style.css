@@ -717,6 +717,14 @@ section.privacy__banner::after {
 }
 
 /*entertainment-casino-css-end*/
+/*accordion-casino-css-start*/
+button.accordion-button.collapsed {
+  background: #29d9d5 !important;
+  color: #000 !important;
+  font-size: 18px !important;
+}
+
+/*accordion-casino-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
