@@ -736,6 +736,10 @@ h2#headingTwo {
   display: none;
 }
 
+button.accordion-button {
+  cursor: auto !important;
+}
+
 /*accordion-casino-css-end*/
 
 

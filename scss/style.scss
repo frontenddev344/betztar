@@ -760,7 +760,9 @@ h2#headingTwo {
 .accordion-button::after {
     display: none;
 }
-
+button.accordion-button {
+    cursor: auto !important;
+}
 /*accordion-casino-css-end*/
 
 /*# sourceMappingURL=style.css.map */
