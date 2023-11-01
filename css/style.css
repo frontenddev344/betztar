@@ -718,7 +718,7 @@ section.privacy__banner::after {
 
 /*entertainment-casino-css-end*/
 /*accordion-casino-css-start*/
-button.accordion-button.collapsed {
+button.accordion-button {
   background: #29d9d5 !important;
   color: #000 !important;
   font-size: 18px !important;
