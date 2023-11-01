@@ -724,6 +724,10 @@ button.accordion-button {
   font-size: 18px !important;
 }
 
+h2#headingTwo {
+  line-height: 35px !important;
+}
+
 /*accordion-casino-css-end*/
 
 
