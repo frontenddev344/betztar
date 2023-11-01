@@ -748,6 +748,9 @@ button.accordion-button {
 h2#headingTwo {
     line-height: 35px !important;
 }
+.accordion-button::after{
+    display: none;
+}
 /*accordion-casino-css-end*/
 
 /*# sourceMappingURL=style.css.map */
