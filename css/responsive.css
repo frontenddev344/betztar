@@ -1,0 +1,326 @@
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Barlow";
+}
+
+a,
+button {
+  font-family: "Barlow";
+}
+
+p {
+  color: #0C0B0B;
+  font-size: 17px;
+  line-height: 25px;
+}
+@media screen and (max-width: 1024px) {
+  p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 75px;
+  color: #fff;
+}
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 27px;
+    line-height: 55px;
+  }
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 500;
+}
+@media screen and (max-width: 575px) {
+  h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+h3 {
+  font-size: 25px;
+  color: #29d9d5;
+  line-height: 30px;
+}
+@media screen and (max-width: 1024px) {
+  h3 {
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+
+/*media queries start*/
+@media screen and (max-width: 1199px) {
+  .container {
+    padding: 0 20px;
+  }
+  .site-logo img {
+    max-width: 180px;
+  }
+  .site-nav a {
+    padding: 8px 8px !important;
+    display: inline-block;
+  }
+  .site-nav li {
+    font-size: 16px;
+  }
+  .cuisine-btn.casino a {
+    padding: 14px 9px;
+    font-size: 13px;
+  }
+  .cuisine__picture.casino {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /*header start*/
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background: #000000;
+    transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+    transform: translateX(-100%);
+  }
+  .site-nav ul {
+    display: block;
+    padding: 75px 60px 0;
+    display: inline-block !important;
+  }
+  .menu-toggle {
+    display: block !important;
+    cursor: pointer;
+  }
+  .closed-menu {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    display: inline-block;
+  }
+  .closed-menu a:hover {
+    color: #fff;
+  }
+  .closed-menu {
+    display: block;
+  }
+  .toggle .site-nav {
+    transform: translateX(0);
+  }
+  .closed-menu {
+    display: block;
+  }
+  .site-header {
+    padding: 20px 0;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999999;
+    transition: all 0.5s linear;
+  }
+  .site-header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .site-logo img {
+    max-width: 10rem;
+  }
+  .site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .site-nav li a {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    text-transform: capitalize;
+    color: #fff;
+    position: relative;
+    white-space: nowrap;
+  }
+  .site-nav li a:hover::after {
+    width: 100%;
+    transition: all 0.3s linear;
+  }
+  .site-nav .closed-menu a {
+    font-size: 45px;
+  }
+  .menu-toggle .bar-1,
+  .bar-2,
+  .bar-3 {
+    width: 2.5rem;
+    height: 2px;
+    background-color: #fff;
+    margin: 0.6rem 0;
+    transition: all 0.3s linear;
+    display: block;
+  }
+  ul.dropdown-content {
+    position: absolute;
+    width: 250px;
+    background: transparent;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    display: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .menu-toggle .bar-1,
+  .bar-2,
+  .bar-3 {
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0.6rem 0;
+    transition: all 0.3s linear;
+    display: block;
+  }
+  .bar-2 {
+    width: 30px;
+  }
+  .bd-header-top__meta span {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+  .bd-header-top__meta a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    opacity: 0.7;
+  }
+  .site-nav a {
+    display: inline-block;
+    padding: 8px 9px;
+  }
+  .site-nav li {
+    font-size: 15px;
+  }
+  section.home__banner {
+    margin-top: 0;
+  }
+  section.hotels__banner {
+    margin-top: 0;
+  }
+  section.about__banner {
+    margin-top: 0;
+  }
+  section.contact__banner {
+    margin-top: 0;
+  }
+  section.terms__banner {
+    margin-top: 0;
+  }
+  section.privacy__banner {
+    margin-top: 0;
+  }
+  section.entertainment__banner {
+    margin-top: 0;
+  }
+  section.cuisine__banner {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .cuisine__part h4 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cuisine__part.casino {
+    max-width: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cuisine__picture {
+    margin-bottom: 10px;
+  }
+  .row.cuisine-space {
+    margin-top: 0px;
+  }
+  .cuisine__part {
+    padding-left: 20px;
+  }
+  .about_us_content {
+    width: 100%;
+  }
+  .terms__contenttext p {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hotel__flex {
+    justify-content: center;
+  }
+  .hotelcard__body {
+    margin: 20px 0;
+  }
+  .row.htlcard {
+    padding: 0;
+  }
+  .cuisine__part p {
+    width: 85%;
+  }
+  .cuisine__part.casino p {
+    width: 100%;
+  }
+  .footer {
+    padding: 20px 0;
+  }
+  .footer__about {
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .site-nav {
+    width: 100%;
+  }
+  .row.htlcard.sm {
+    padding: 30px 0 0 0;
+  }
+  .cuisine-btn {
+    margin-bottom: 35px;
+  }
+  .footer__mail {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .cuisine__part p {
+    width: 100% !important;
+  }
+}
+
+
+/*# sourceMappingURL=responsive.css.map */
