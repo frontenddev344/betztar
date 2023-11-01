@@ -267,6 +267,9 @@
 }
 
 @include mq(md) {
+    .cuisine-btn {
+        margin-bottom: 20px;
+    }
     .hotel__flex {
         justify-content: center;
     }

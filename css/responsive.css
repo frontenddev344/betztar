@@ -280,6 +280,9 @@ h3 {
   }
 }
 @media screen and (max-width: 767px) {
+  .cuisine-btn {
+    margin-bottom: 20px;
+  }
   .hotel__flex {
     justify-content: center;
   }
