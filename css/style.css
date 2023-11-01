@@ -309,6 +309,10 @@ img.big.img-fluid {
   padding: 30px 0;
 }
 
+section.xenodocheia-part {
+  padding: 30px 0 0 0;
+}
+
 /*hotels-css-end*/
 /*cuisine-css-start*/
 section.cuisine__banner {

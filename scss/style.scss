@@ -267,6 +267,11 @@ img.big.img-fluid {
     padding: 30px 0;
 }
 
+
+section.xenodocheia-part {
+    padding: 30px 0 0 0;
+}
+
 /*hotels-css-end*/
 
 /*cuisine-css-start*/
@@ -716,10 +721,12 @@ section.privacy__banner {
     height: 250px;
     object-fit: cover;
     transition: all 0.3s linear;
-    &::after{
+
+    &::after {
         background: rgba(0, 0, 0, 0.31) !important;
     }
-    img{
+
+    img {
         height: 100%;
     }
 }
@@ -745,12 +752,15 @@ button.accordion-button {
     color: #000 !important;
     font-size: 18px !important;
 }
+
 h2#headingTwo {
     line-height: 35px !important;
 }
-.accordion-button::after{
+
+.accordion-button::after {
     display: none;
 }
+
 /*accordion-casino-css-end*/
 
 /*# sourceMappingURL=style.css.map */
