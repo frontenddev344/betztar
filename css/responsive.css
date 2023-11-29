@@ -318,6 +318,12 @@ h3 {
   .footer__mail {
     margin-top: 10px;
   }
+  section.mobile-view {
+    display: block;
+  }
+  section.desktop-version {
+    display: none;
+  }
 }
 @media screen and (max-width: 395px) {
   .cuisine__part p {
